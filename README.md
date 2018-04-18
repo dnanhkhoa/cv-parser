@@ -2,11 +2,11 @@
 
 A simple tool for extracting important information from CV using rules, patterns, and regular expression.
 
-Input formats: pdf, doc, docx
+**Input formats:** pdf, doc, docx
 
-Output format: json
+**Output format:** json
 
-Languages support: English and Vietnamese
+**Languages support:** English and Vietnamese
 
 ## Example Usage
 
