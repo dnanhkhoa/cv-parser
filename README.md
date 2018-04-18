@@ -1,6 +1,6 @@
 # CVParser
 
-A simple tool for extracting important information from CV using rules, patterns, and regular expression.
+A simple tool for extracting important information from Résumé using rules, patterns, and regular expression.
 
 **Input formats:** pdf, doc, docx
 
