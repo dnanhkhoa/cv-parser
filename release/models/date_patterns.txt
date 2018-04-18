@@ -1,0 +1,7 @@
+@FullMonthEn=January|February|March|April|May|June|July|August|September|October|November|December
+@ShortMonthEn=Jan|Feb|Mar|Apr|May|Jun|Jul|Aug|Sep|Oct|Nov|Dec
+@FullMonthVi=Tháng (?:một|hai|ba|bốn|năm|sáu|bảy|tám|chín|mười|mười một|mười hai)
+@ShortMonthVi=Tháng \d{1,2}
+@Now=\b(?:Current|Now|Present|Hiện nay|Nay|Bây giờ|Hiện tại)\b
+@To=to|đến
+StartEnd=(?i)((?:(?:{{@FullMonthEn}}|{{@ShortMonthEn}}|{{@FullMonthVi}}|{{@ShortMonthVi}}|\d{1,2})[\/\s-–]){0,2}20?\d{2}|{{@Now}})(?:(?:[\/\s-–—]+|\s*(?:{{@To}})\s*)((?:(?:{{@FullMonthEn}}|{{@ShortMonthEn}}|{{@FullMonthVi}}|{{@ShortMonthVi}}|\d{1,2})[\/\s-–]){0,2}20?\d{2}|{{@Now}}))?

@@ -1,0 +1,3 @@
+{{@@include(models/date_patterns.txt)}}
+Employer=(?i){{@StartEnd}}\s*[-–—]*\s*([^\n]+)
+PositionHeld=(?i)((?:Nhân viên|Kỹ sư)[^\n]+)

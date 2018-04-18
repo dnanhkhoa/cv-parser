@@ -1,0 +1,1 @@
+ExpectedSalary=(?i)(?:lương|salary)[^\S\n]*:?[^\S\n]*([^\n]+)(?:$|\n)

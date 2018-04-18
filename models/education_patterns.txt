@@ -1,0 +1,2 @@
+School=(?i)((?:University|College|School|Academy|Department|Faculty|Institute|Institution|Seminary|Trường|ĐH|Đại học|CĐ|Cao đẳng|Trung tâm|Học viện|Bộ|Khoa|Viện)[^\n]+)
+Degree=(?i)((?:Bachelor|Diploma|Master|Doctor|phd|Engineer|Cử nhân|Bằng cấp|Tiến sĩ|Tiến sỹ|Nghiên cứu sinh|Kỹ sư|Kĩ sư|Chuyên ngành)[^\n]+)
