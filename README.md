@@ -3,7 +3,9 @@
 A simple tool for extracting important information from CV using rules, patterns, and regular expression.
 
 Input formats: pdf, doc, docx
+
 Output format: json
+
 Languages support: English and Vietnamese
 
 ## Example Usage
