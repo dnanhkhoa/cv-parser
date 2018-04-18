@@ -19,7 +19,7 @@ public class App {
     public static void demo() {
         try {
             ResumeParser resumeParser = new ResumeParser();
-            String resume = resumeParser.parse(new File("C:\\Users\\Anh Khoa\\Desktop\\samples\\sample_cv_en.doc"));
+            String resume = resumeParser.parse(new File("sample_cv_en.pdf"));
             System.out.println(resume);
         } catch (IOException e) {
             System.err.println(e.getMessage());
